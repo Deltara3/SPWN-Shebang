@@ -1,3 +1,5 @@
+#!/usr/bin/env bash
+
 getlnnum () {
     TEMP=$(
         echo "$1" |

@@ -30,7 +30,7 @@ Unofficial Shebang support for [SPWN](https://github.com/Spu7Nix/SPWN-language) 
   ```sh
   ./script.spwn
   ```
-**NOTE: Nothing will be printed if compilation was a success.**
+**NOTE: Nothing but print statements will be printed if compilation was a success.**
 
 # Features
 Like nothing, it's just Shebang support.

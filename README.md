@@ -1,8 +1,17 @@
 # SPWN-Shebang
 Unofficial Shebang support for [SPWN](https://github.com/Spu7Nix/SPWN-language) because I was bored.
 
+# Installation
+- Use `wget`.
+  ```sh
+  wget "https://raw.githubusercontent.com/Deltara3/SPWN-Shebang/main/sexec.sh" -O /directory/in/path/sexec
+  ```
+  In my case this would be:
+  ```sh
+  wget "https://raw.githubusercontent.com/Deltara3/SPWN-Shebang/main/sexec.sh" -O /usr/local/bin/sexec
+  ```
+
 # Usage
-- Put `sexec` somewhere in path.
 - Create a new SPWN file with the Shebang line.
   ```swift
   #! env -S sexec
@@ -12,6 +21,14 @@ Unofficial Shebang support for [SPWN](https://github.com/Spu7Nix/SPWN-language) 
   ```swift
   #! env -S sexec -l
   $.print("Hello, world!")
+  ```
+- Make the script executable.
+  ```sh
+  chmod +x script.spwn
+  ```
+- Execute the script.
+  ```sh
+  ./script.spwn
   ```
 **NOTE: Nothing will be printed if compilation was a success.**
 

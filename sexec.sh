@@ -17,6 +17,7 @@ OUT=$(spwn b temp.spwn ${@:1:$#-1} 2>&1)
 if [ "$?" -ne 0 ]
 then
     echo "$OUT"
+    rm temp.spwn
     exit
 fi
 
